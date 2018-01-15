@@ -1,4 +1,4 @@
-<?php //Last updated 27-8-17
+<?php //Last updated 13-1-17
 $lang = array();
 
 $lang['LANGUAGE'] = 'Deutsch';
@@ -29,8 +29,11 @@ $lang['TITLE_ACCOUNTSETTINGS'] = 'Account Einstellungen';
 $lang['TITLE_LOGOUT'] = 'Ausloggen';
 
 $lang['TITLE_DASHBOARD'] = 'Dashboard';
-
+$lang['TITLE_NETWORK'] = 'Netzwerk';
 $lang['TITLE_NETWORKSETTINGS'] = 'Netzwerk Einstellungen';
+$lang['TITLE_ADMINISTRATION'] = 'Administration';
+$lang['TITLE_ADDONS'] = 'Addons';
+$lang['TITLE_ACCOUNT'] = 'Account';
 
 $lang['TITLE_MOTDANDMAINTENANCE'] = 'MOTD & Wartung';
 
@@ -51,8 +54,10 @@ $lang['ANALYTICS_FUTUREPORJECTIONS'] = 'Zukunftsberechnungen';
 $lang['PLAYER_PLAYERINFORMATION'] = 'Spieler Information';
 $lang['PLAYER_PLAYERSTATISTICS'] = 'Spieler Statistiken';
 $lang['PLAYER_LATESTSESSIONS'] = 'Letzte Sitzungen';
+$lang['PLAYER_NOTES'] = 'Notizen';
 $lang['PLAYER_PUNISHMENTS'] = 'Bestrafungen';
 $lang['PLAYER_USERNAME'] = 'Username';
+$lang['PLAYER_NICKNAME'] = 'Nickname';
 $lang['PLAYER_UUID'] = 'UUID';
 $lang['PLAYER_COUNTRY'] = 'Land';
 $lang['PLAYER_LATESTMINECRAFTVERSION'] = 'Letzte Minecraft Version';
@@ -65,6 +70,7 @@ $lang['PLAYER_PLAYTIME'] = 'Spielzeit';
 $lang['PLAYER_AVERAGEPLAYTIME'] = 'Totale Spielzeit';
 $lang['PLAYER_JOINSAT'] = 'Tritt normalerweise bei um';
 $lang['PLAYER_ALTACCOUNTS'] = 'Zusätzliche Accounts';
+$lang['PLAYER_SEARCH'] = 'Suche mit Spielername, UUID oder IP Addresse';
 
 $lang['PUNISHMENTS_PUNISHMENT'] = 'Bestrafungen';
 $lang['PUNISHMENTS_TYPE'] = 'Typ';
@@ -78,16 +84,24 @@ $lang['PUNISHMENTS_STATUS'] = 'Status';
 $lang['PUNISHMENTS_UNBANNER'] = 'Unbanner';
 $lang['PUNISHMENTS_ACTIVE'] = 'Aktiv';
 $lang['PUNISHMENTS_EXPIRED'] = 'Abgelaufen';
+$lang['PUNISHMENTS_SEARCH'] = 'Suche durch Bestrafung ID, Bestrafter, Bestrafer oder Grund';
 
 $lang['REPORTS_REPORT'] = 'Report';
 $lang['REPORTS_REPORTER'] = 'Reporter';
 $lang['REPORTS_CLOSE'] = 'Schließen';
+$lang['REPORTS_SEARCH'] = 'Suche Reports durch Spieler, Reporter, oder Grund';
+
+$lang['CHAT_SEARCH'] = 'Suche Chat durch UUID, Nachricht, Server oder Ip';
+
+$lang['NOTES_NOTE'] = 'Notiz';
 
 $lang['CHATLOG_CHATLOGID'] = 'Chatlog ID';
 $lang['CHATLOG_TRACKED'] = 'Verfolgt';
 $lang['CHATLOG_CHATLOGS'] = 'Chatlogs';
+$lang['CHATLOG_SEARCH'] = 'Suche durch Ersteller, UUID oder Ziel';
 
 $lang['HELPOP_REQUESTER'] = 'Anforderer';
+$lang['HELPOP_SEARCH'] = 'Suche HelpOp durch Anfrager, Server oder Nachricht';
 
 $lang['TICKET_TICKET'] = 'Ticket';
 $lang['TICKET_TITLE'] = 'Titel';
@@ -95,11 +109,27 @@ $lang['TICKET_ASSIGNEDTO'] = 'Weitergeleitet zu';
 $lang['TICKET_LASTUPDATE'] = 'Letztes Update';
 $lang['TICKER_ANSWER'] = 'Antworten';
 $lang['TICKER_CLOSE'] = 'Schließen';
+$lang["TICKET_SEARCH"] = 'Suche Tickets durch Ersteller, Title oder Ziel der Weiterleitung';
+
+$lang['SETTINGS_SEARCH'] = 'Search setting by variable';
 
 $lang['MOTD_MOTDGENERATOR'] = 'MOTD Generator';
 $lang['MOTD_KICKMSG'] = 'Kicknachricht';
 $lang['MOTD_PREVIEW'] = 'Vorschau';
 $lang['MOTD_MAINTENANCEMODE'] = 'Wartungsmodus';
+
+$lang['PERMISSIONS_GROUP_NAME'] = 'Name';
+$lang['PERMISSIONS_PREFIX'] = 'Prefix';
+$lang['PERMISSIONS_SUFFIX'] = 'Suffix';
+$lang['PERMISSIONS_WEIGHT'] = 'Gewicht';
+$lang['PERMISSIONS_ISDEFAULT'] = 'Standart';
+$lang['PERMISSIONS_PERMISSION'] = 'Permission';
+$lang['PERMISSIONS_GROUP_CREATE'] = 'Erstelle Gruppe';
+$lang['PERMISSIONS_PERMISSION_ADD'] = 'Permission hinzufügen';
+$lang['PERMISSIONS_GROUP_MEMBER_ADD'] = 'Member hinzufügen';
+$lang['PERMISSIONS_GROUP_MEMBER_LIST'] = 'Member auflisten';
+$lang['PERMISSIONS_GROUP_SEARCH'] = 'Suche Gruppe durch ID oder Name';
+$lang['PERMISSIONS_PLAYER_SEARCH'] = 'Suche Spieler durch Name, Prefix oder Suffix';
 
 $lang['PERMISSIONS_EDITPERMS'] = 'Permissions bearbeiten';
 $lang['PERMISSIONS_EDITINHERITANCES'] = 'Erbschaften bearbeiten';
@@ -109,6 +139,8 @@ $lang['PERMISSIONS_SELECTGROUP'] = 'Gruppe auswählen';
 $lang['FILTER_ADDWORD'] = 'Wort hinzufügen';
 
 $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Befehl hinzufügen';
+
+$lang['TABCOMPLETECOMMANDS_ADDCOMMAND'] = 'Befehl hinzufügen';
 
 $lang['GROUPANDACCOUNTS_GROUP'] = 'Gruppe';
 $lang['GROUPANDACCOUNTS_USER'] = 'User';
@@ -167,6 +199,11 @@ $lang['VAR_TODAY'] = 'Heute';
 $lang['VAR_THISWEEK'] = 'Diese Woche';
 $lang['VAR_TOTAL'] = 'Total';
 $lang['VAR_BY'] = 'Durch';
+$lang['VAR_LOADING'] = 'Lade...';
+$lang['VAR_BY'] = 'Von';
+$lang['VAR_ALL'] = 'Alle';
+$lang['VAR_UNKNOWN'] = 'Unbekannt';
+$lang['VAR_BACK'] = 'Zurück';
 
 $lang['TEXT_NORESULTS'] = 'Keine Ergebnisse gefunden!';
 $lang['TEXT_NORESULTS_SEARCH'] = 'Keine Ergebnisse gefunden für';
