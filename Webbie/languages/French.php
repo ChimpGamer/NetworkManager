@@ -1,11 +1,4 @@
-<?php
-
-//FR: Cette version du langage français à été crée par Rémi VIDON pour NM (NetworkManager)
-//EN: This version of the French language was created by Rémi VIDON for NM (NetworkManager)
-
-//FR: Dernière MAJ le 26/01/2017 par RémiVIDON (TheRemiDev sûr le discord -> Donator)
-//EN: Last updated 26/01/2017 By Rémi VIDON (TheRemiDev on Discord -> Donator)
-
+<?php //Dernière mise à jour 31/01/2018 par jobogamer24
 $lang = array();
 
 $lang['LANGUAGE'] = 'Français';
@@ -117,6 +110,12 @@ $lang['TICKET_LASTUPDATE'] = 'Dernière mise à jour';
 $lang['TICKET_ANSWER'] = 'Répondre';
 $lang['TICKET_CLOSE'] = 'Fermer';
 $lang["TICKET_SEARCH"] = 'Rechercher des tickets par créateur, titre ou assigné à';
+$lang['TICKET_CREATED'] = 'Créé';
+$lang['TICKET_PRIORITY'] = 'Priorité';
+$lang['TICKET_PRIORITY_LOW'] = 'Petite';
+$lang['TICKET_PRIORITY_MEDIUM'] = 'Moyenne';
+$lang['TICKET_PRIORITY_HIGH'] = 'Haute';
+$lang['TICKET_PRIORITY_NO_PRIORITY'] = 'Aucune';
 
 $lang['SETTINGS_SEARCH'] = 'Paramètre de recherche par variable';
 
@@ -124,6 +123,19 @@ $lang['MOTD_MOTDGENERATOR'] = 'Générateur MOTD';
 $lang['MOTD_KICKMSG'] = "Message d''expulsion";
 $lang['MOTD_PREVIEW'] = 'Aperçu';
 $lang['MOTD_MAINTENANCEMODE'] = 'Mode Maintenance';
+
+$lang['PERMISSIONS_GROUP_NAME'] = 'Pseudo';
+$lang['PERMISSIONS_PREFIX'] = 'Prefix';
+$lang['PERMISSIONS_SUFFIX'] = 'Suffix';
+$lang['PERMISSIONS_WEIGHT'] = 'Importance';
+$lang['PERMISSIONS_ISDEFAULT'] = 'Par default';
+$lang['PERMISSIONS_PERMISSION'] = 'Permission';
+$lang['PERMISSIONS_GROUP_CREATE'] = 'Créé un groupe';
+$lang['PERMISSIONS_PERMISSION_ADD'] = 'Ajouter une permission';
+$lang['PERMISSIONS_GROUP_MEMBER_ADD'] = 'Ajouter un Membre';
+$lang['PERMISSIONS_GROUP_MEMBER_LIST'] = 'Liste des Membres';
+$lang['PERMISSIONS_GROUP_SEARCH'] = 'Rechercher le group par son ID ou son Nom';
+$lang['PERMISSIONS_PLAYER_SEARCH'] = 'Rechercher le joueur par son nom, son préfix ou son suffix';
 
 $lang['PERMISSIONS_EDITPERMS'] = 'Modifier les permissions';
 $lang['PERMISSIONS_EDITINHERITANCES'] = 'Modifier les héritages (Inheritances)';
@@ -193,7 +205,10 @@ $lang['VAR_TODAY'] = "Aujourd''hui";
 $lang['VAR_THISWEEK'] = 'Cette semaine';
 $lang['VAR_TOTAL'] = 'Total';
 $lang['VAR_LOADING'] = 'Chargement...';
-$lang['VAR_BY'] = 'Par';
+$lang['VAR_BY'] = 'par';
+$lang['VAR_ALL'] = 'ALL';
+$lang['VAR_UNKNOWN'] = 'Inconnu';
+$lang['VAR_BACK'] = 'Retour';
 
 $lang['TEXT_NORESULTS'] = "Aucun résultat n''a pu être affiché";
 $lang['TEXT_NORESULTS_SEARCH'] = 'Aucun résultat trouvé pour';
