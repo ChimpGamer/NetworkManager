@@ -9,7 +9,7 @@
 $lang = array();
 
 $lang['LANGUAGE'] = 'Français';
-$lang['AUTHOR'] = 'TheRemiDev';
+$lang['AUTHOR'] = 'jobogamer24';
 
 $lang['TITLE_OVERVIEW'] = 'Aperçu';
 $lang['TITLE_ANALYTICS'] = 'Analytique';
@@ -36,8 +36,11 @@ $lang['TITLE_ACCOUNTSETTINGS'] = 'Paramètres du compte';
 $lang['TITLE_LOGOUT'] = 'Déconnexion';
 
 $lang['TITLE_DASHBOARD'] = 'Tableau de bord';
-
+$lang['TITLE_NETWORK'] = 'Configuration Général';
+$lang['TITLE_ADMINISTRATION'] = 'Administration';
 $lang['TITLE_NETWORKSETTINGS'] = 'Paramètres réseau';
+$lang['TITLE_ADDONS'] = 'Addons';
+$lang['TITLE_ACCOUNT'] = 'Compte';
 
 $lang['TITLE_MOTDANDMAINTENANCE'] = 'MOTD & Maintenance';
 
