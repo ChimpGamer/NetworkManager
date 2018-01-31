@@ -42,9 +42,9 @@ $lang['TITLE_NETWORKSETTINGS'] = 'Paramètres réseau';
 $lang['TITLE_MOTDANDMAINTENANCE'] = 'MOTD & Maintenance';
 
 $lang['DASHBOARD_TOTALPLAYERS'] = 'Total des joueurs';
-$lang['DASHBOARD_TODAYONLINEPLAYERS'] = 'Joueurs en ligne d''aujourd''hui';
-$lang['DASHBOARD_TODAYSNEWPLAYERS'] = 'Les nouveaux joueurs d''aujourd''hui';
-$lang['DASHBOARD_TODAYSPLAYTIME'] = 'Playtime d''aujourd''hui';
+$lang['DASHBOARD_TODAYONLINEPLAYERS'] = "Joueurs en ligne d''aujourd''hui";
+$lang['DASHBOARD_TODAYSNEWPLAYERS'] = "Les nouveaux joueurs d''aujourd''hui";
+$lang['DASHBOARD_TODAYSPLAYTIME'] = "Playtime d''aujourd''hui";
 $lang['DASHBOARD_PLAYERSTATISTICS'] = 'Statistiques des joueurs';
 $lang['DASHBOARD_NEWESTPLAYERS'] = 'Nouveaux joueurs';
 $lang['ANALYTICS_ONLINE'] = 'En ligne';
@@ -52,7 +52,7 @@ $lang['ANALYTICS_AVERAGESTATS'] = 'Statistiques moyennes';
 $lang['ANALYTICS_MOSTPLAYEDVERSIONS'] = 'Versions les plus jouées';
 $lang['ANALYTICS_PLAYERREGIONS'] = 'Régions de joueurs';
 $lang['ANALYTICS_PLAYTIME'] = 'Temps de jeux';
-$lang['ANALYTICS_USERRETENTION'] = 'Rétention de l''utilisateur';
+$lang['ANALYTICS_USERRETENTION'] = "Rétention de l''utilisateur";
 $lang['ANALYTICS_FUTUREPORJECTIONS'] = 'Projections futures';
 
 $lang['PLAYER_PLAYERINFORMATION'] = 'Informations sur le joueur';
@@ -60,7 +60,7 @@ $lang['PLAYER_PLAYERSTATISTICS'] = 'Statistiques du joueur';
 $lang['PLAYER_LATESTSESSIONS'] = 'Dernières sessions';
 $lang['PLAYER_NOTES'] = 'Notes';
 $lang['PLAYER_PUNISHMENTS'] = 'Les sanctions';
-$lang['PLAYER_USERNAME'] = 'Nom d''utilisateur';
+$lang['PLAYER_USERNAME'] = "Nom d''utilisateur";
 $lang['PLAYER_NICKNAME'] = 'Nick';
 $lang['PLAYER_UUID'] = 'UUID';
 $lang['PLAYER_COUNTRY'] = 'Pays';
@@ -105,7 +105,7 @@ $lang['CHATLOG_CHATLOGS'] = 'Chatlogs';
 $lang['CHATLOG_SEARCH'] = 'Rechercher dans le chatlog par créateur, uuid ou suivi';
 
 $lang['HELPOP_REQUESTER'] = 'Demandeur';
-$lang['HELPOP_SEARCH'] = 'Rechercher des demandes d''aide par demandeur, serveur ou message';
+$lang['HELPOP_SEARCH'] = "Rechercher des demandes d''aide par demandeur, serveur ou message";
 
 $lang['TICKET_TICKET'] = 'Ticket';
 $lang['TICKET_TITLE'] = 'Titre';
@@ -118,7 +118,7 @@ $lang["TICKET_SEARCH"] = 'Rechercher des tickets par créateur, titre ou assign�
 $lang['SETTINGS_SEARCH'] = 'Paramètre de recherche par variable';
 
 $lang['MOTD_MOTDGENERATOR'] = 'Générateur MOTD';
-$lang['MOTD_KICKMSG'] = 'Message d''expulsion';
+$lang['MOTD_KICKMSG'] = "Message d''expulsion";
 $lang['MOTD_PREVIEW'] = 'Aperçu';
 $lang['MOTD_MAINTENANCEMODE'] = 'Mode Maintenance';
 
@@ -143,7 +143,7 @@ $lang['ACCOUNTSETTINGS_NEWPASS'] = 'Nouveau mot de passe';
 $lang['ACCOUNTSETTINGS_SELECTED_LANG'] = 'Langue sélectionnée:';
 
 $lang['LOGIN_TITLE'] = 'NetworkManager';
-$lang['LOGIN_USERNAME'] = 'Nom d''utilisateur';
+$lang['LOGIN_USERNAME'] = "Nom d''utilisateur";
 $lang['LOGIN_PASSWORD'] = 'Mot de passe';
 $lang['LOGIN_REMEMBERME'] = 'Souviens-toi de moi';
 $lang['LOGIN_LOGIN'] = 'Connexion';
@@ -186,13 +186,13 @@ $lang['VAR_CANCEL'] = 'Annuler';
 $lang['VAR_MONTHLY'] = 'Mensuel';
 $lang['VAR_WEEKLY'] = 'Hebdomadaire';
 $lang['VAR_DAILY'] = 'Quotidien';
-$lang['VAR_TODAY'] = 'Aujourd''hui';
+$lang['VAR_TODAY'] = "Aujourd''hui";
 $lang['VAR_THISWEEK'] = 'Cette semaine';
 $lang['VAR_TOTAL'] = 'Total';
 $lang['VAR_LOADING'] = 'Chargement...';
 $lang['VAR_BY'] = 'Par';
 
-$lang['TEXT_NORESULTS'] = 'Aucun résultat n''a pu être affiché';
+$lang['TEXT_NORESULTS'] = "Aucun résultat n''a pu être affiché";
 $lang['TEXT_NORESULTS_SEARCH'] = 'Aucun résultat trouvé pour';
 $lang['TEXT_SELECTOPTION'] = ' -- Choisir une option -- ';
 $lang['TEXT_NOTASKS'] = 'Pas de tâches! Passez une bonne journée :)';
