@@ -9,6 +9,6 @@
 
 ### What BungeeCord/Spigot version are you using? (Type /bungee for BungeeCord and /version for Spigot)  
 
-### Do you have a stacktrace error? Use [hastebin.com](http://hastebin.com). (If you're not sure, upload your whole server log) 
+### Do you have a stacktrace error? Use [hastebin.com](http://hastebin.com) or [pastebin.com](http://pastebin.com).
 
 ### Additional information?  *(Are you using a beta version of the plugin? Did i
