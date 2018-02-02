@@ -1,4 +1,4 @@
-<?php //Last updated 11-1-17
+<?php //Last updated 2-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
@@ -108,9 +108,15 @@ $lang['TICKET_TICKET'] = 'Ticket';
 $lang['TICKET_TITLE'] = 'Titel';
 $lang['TICKET_ASSIGNEDTO'] = 'Toegewezen aan';
 $lang['TICKET_LASTUPDATE'] = 'Laatste Update';
-$lang['TICKER_ANSWER'] = 'Beantwoord';
-$lang['TICKER_CLOSE'] = 'Sluit';
+$lang['TICKET_ANSWER'] = 'Beantwoord';
+$lang['TICKET_CLOSE'] = 'Sluit';
 $lang["TICKET_SEARCH"] = 'Zoek tickets d.m.v. creator, titel, of toegewezen aan';
+$lang['TICKET_CREATED'] = 'Gemaakt';
+$lang['TICKET_PRIORITY'] = 'Prioriteit';
+$lang['TICKET_PRIORITY_LOW'] = 'Laag';
+$lang['TICKET_PRIORITY_MEDIUM'] = 'Normaal';
+$lang['TICKET_PRIORITY_HIGH'] = 'Hoog';
+$lang['TICKET_PRIORITY_NO_PRIORITY'] = 'Geen Prioriteit';
 
 $lang['SETTINGS_SEARCH'] = 'Zoek instellingen d.m.v. variable';
 
@@ -136,6 +142,11 @@ $lang['PERMISSIONS_EDITPERMS'] = 'Edit Permissions';
 $lang['PERMISSIONS_EDITINHERITANCES'] = 'Verander Erfdeel';
 $lang['PERMISSIONS_EDITGROUPSETTINGS'] = 'Verander Groep Instellingen';
 $lang['PERMISSIONS_SELECTGROUP'] = 'Selecteer groep';
+
+$lang['TAGS_TAG_NAME'] = 'Naam';
+$lang['TAGS_TAG_TAG'] = 'Label';
+$lang['TAGS_TAG_DESCRIPTION'] = 'Beschrijving';
+$lang['TAGS_TAG_CREATE'] = 'Creeër Label';
 
 $lang['FILTER_ADDWORD'] = 'Woord toevoegen';
 
