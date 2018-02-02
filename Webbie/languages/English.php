@@ -1,4 +1,4 @@
-<?php //Last updated 11-1-17
+<?php //Last updated 2-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -18,6 +18,7 @@ $lang['TITLE_TICKETS'] = 'Tickets';
 $lang['TITLE_SETTINGS'] = 'Settings';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
+$lang['TITLE_TAGS'] = 'Tags';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
 $lang['TITLE_TABCOMPLETECOMMANDS'] = 'TabCompleteCommands';
@@ -29,9 +30,9 @@ $lang['TITLE_ACCOUNTSETTINGS'] = 'Account Settings';
 $lang['TITLE_LOGOUT'] = 'Log Out';
 
 $lang['TITLE_DASHBOARD'] = 'Dashboard';
-$lang['TITLE_NETWORK'] = 'Netwerk';
-$lang['TITLE_NETWORKSETTINGS'] = 'Netwerk Instellingen';
-$lang['TITLE_ADMINISTRATION'] = 'Administartie';
+$lang['TITLE_NETWORK'] = 'Network';
+$lang['TITLE_NETWORKSETTINGS'] = 'Network Settings';
+$lang['TITLE_ADMINISTRATION'] = 'Administration';
 $lang['TITLE_ADDONS'] = 'Addons';
 $lang['TITLE_ACCOUNT'] = 'Account';
 
@@ -141,6 +142,11 @@ $lang['PERMISSIONS_EDITPERMS'] = 'Edit Permissions';
 $lang['PERMISSIONS_EDITINHERITANCES'] = 'Edit Inheritances';
 $lang['PERMISSIONS_EDITGROUPSETTINGS'] = 'Edit Group Settings';
 $lang['PERMISSIONS_SELECTGROUP'] = 'Select Group';
+
+$lang['TAGS_TAG_NAME'] = 'Name';
+$lang['TAGS_TAG_TAG'] = 'Tag';
+$lang['TAGS_TAG_DESCRIPTION'] = 'Description';
+$lang['TAGS_TAG_CREATE'] = 'Create Tag';
 
 $lang['FILTER_ADDWORD'] = 'Add word';
 
