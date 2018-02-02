@@ -1,7 +1,8 @@
-### What steps will reproduce the problem?  
+### What steps do you need to take to reproduce the problem?  
 1. 
 2. 
 3. 
+etc.
 
 ### What were you expecting to happen? What happens instead?  
 
@@ -11,4 +12,4 @@
 
 ### Do you have a stacktrace error? Use [hastebin.com](http://hastebin.com) or [pastebin.com](http://pastebin.com).
 
-### Additional information?  *(Are you using a beta version of the plugin? Did i
+### Any additional information that might be useable/important?
