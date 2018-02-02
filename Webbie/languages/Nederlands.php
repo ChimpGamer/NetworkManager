@@ -18,6 +18,7 @@ $lang['TITLE_TICKETS'] = 'Tickets';
 $lang['TITLE_SETTINGS'] = 'Instellingen';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
+$lang['TITLE_TAGS'] = 'Labels';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
 $lang['TITLE_TABCOMPLETECOMMANDS'] = 'TabCompleteCommands';
