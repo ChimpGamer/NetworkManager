@@ -10,6 +10,6 @@ etc.
 
 ### What BungeeCord/Spigot version are you using? (Type /bungee for BungeeCord and /version for Spigot)  
 
-### Do you have a stacktrace error? Use [hastebin.com](http://hastebin.com) or [pastebin.com](http://pastebin.com).
+### Do you have a stacktrace error? Use [hastebin.com](http://hastebin.com), [pastebin.com](http://pastebin.com) or insert a screenshot.
 
 ### Any additional information that might be useable/important?
