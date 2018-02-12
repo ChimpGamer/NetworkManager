@@ -1,4 +1,4 @@
-<?php //Last updated 2-2-18
+<?php //Last updated 12-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -45,6 +45,7 @@ $lang['DASHBOARD_TODAYSNEWPLAYERS'] = 'Todays New Players';
 $lang['DASHBOARD_TODAYSPLAYTIME'] = 'Todays Playtime';
 $lang['DASHBOARD_PLAYERSTATISTICS'] = 'Player Statistics';
 $lang['DASHBOARD_NEWESTPLAYERS'] = 'Newest Players';
+
 $lang['ANALYTICS_ONLINE'] = 'Online';
 $lang['ANALYTICS_AVERAGESTATS'] = 'Average Stats';
 $lang['ANALYTICS_MOSTPLAYEDVERSIONS'] = 'Most Played Versions';
@@ -159,6 +160,7 @@ $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Add command';
 
 $lang['ANNOUNCEMENTS_TYPE'] = 'Type';
 $lang['ANNOUNCEMENTS_MESSAGE'] = 'Message';
+$lang['ANNOUNCEMENTS_CREATE_ANNOUNCEMENT'] = 'Create Announcement';
 
 $lang['TABCOMPLETECOMMANDS_ADDCOMMAND'] = 'Add command';
 
@@ -225,6 +227,8 @@ $lang['VAR_UNKNOWN'] = 'Unknown';
 $lang['VAR_BACK'] = 'Back';
 $lang['VAR_ACTIVE'] = 'Active';
 $lang['VAR_INACTIVE'] = 'Inactive';
+$lang['VAR_TRUE'] = 'True';
+$lang['VAR_FALSE'] = 'False';
 
 $lang['TEXT_NORESULTS'] = 'No results could be displayed';
 $lang['TEXT_NORESULTS_SEARCH'] = 'No results found for';
