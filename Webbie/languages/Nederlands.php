@@ -21,6 +21,7 @@ $lang['TITLE_PERMISSIONS'] = 'Permissions';
 $lang['TITLE_TAGS'] = 'Labels';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
+$lang['TITLE_ANNOUNCEMENTS'] = 'Mededelingen';
 $lang['TITLE_TABCOMPLETECOMMANDS'] = 'TabCompleteCommands';
 
 $lang['TITLE_GROUPSANDACCOUNTS'] = 'Groepen & Accounts';
@@ -152,6 +153,9 @@ $lang['TAGS_TAG_CREATE'] = 'Creeër Label';
 $lang['FILTER_ADDWORD'] = 'Woord toevoegen';
 
 $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Command toevoegen';
+
+$lang['ANNOUNCEMENTS_TYPE'] = 'Type';
+$lang['ANNOUNCEMENTS_MESSAGE'] = 'Bericht';
 
 $lang['GROUPANDACCOUNTS_GROUP'] = 'Groep';
 $lang['GROUPANDACCOUNTS_USER'] = 'Gebruikers';
