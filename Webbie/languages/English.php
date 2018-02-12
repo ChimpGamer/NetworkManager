@@ -21,6 +21,7 @@ $lang['TITLE_PERMISSIONS'] = 'Permissions';
 $lang['TITLE_TAGS'] = 'Tags';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
+$lang['TITLE_ANNOUNCEMENTS'] = 'Announcements';
 $lang['TITLE_TABCOMPLETECOMMANDS'] = 'TabCompleteCommands';
 
 $lang['TITLE_GROUPSANDACCOUNTS'] = 'Groups & Accounts';
@@ -126,6 +127,10 @@ $lang['MOTD_PREVIEW'] = 'Preview';
 $lang['MOTD_MAINTENANCEMODE'] = 'Maintenance Mode';
 
 $lang['PERMISSIONS_GROUP_NAME'] = 'Name';
+$lang['PERMISSIONS_GROUP_LADDER'] = 'Ladder';
+$lang['PERMISSIONS_GROUP_RANK'] = 'Rank';
+$lang['PERMISSIONS_PERMISSION_WORLD'] = 'World';
+$lang['PERMISSIONS_PERMISSION_EXPIRES'] = 'Expires';
 $lang['PERMISSIONS_PREFIX'] = 'Prefix';
 $lang['PERMISSIONS_SUFFIX'] = 'Suffix';
 $lang['PERMISSIONS_WEIGHT'] = 'Weight';
@@ -151,6 +156,9 @@ $lang['TAGS_TAG_CREATE'] = 'Create Tag';
 $lang['FILTER_ADDWORD'] = 'Add word';
 
 $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Add command';
+
+$lang['ANNOUNCEMENTS_TYPE'] = 'Type';
+$lang['ANNOUNCEMENTS_MESSAGE'] = 'Message';
 
 $lang['TABCOMPLETECOMMANDS_ADDCOMMAND'] = 'Add command';
 
@@ -215,6 +223,8 @@ $lang['VAR_BY'] = 'By';
 $lang['VAR_ALL'] = 'ALL';
 $lang['VAR_UNKNOWN'] = 'Unknown';
 $lang['VAR_BACK'] = 'Back';
+$lang['VAR_ACTIVE'] = 'Active';
+$lang['VAR_INACTIVE'] = 'Inactive';
 
 $lang['TEXT_NORESULTS'] = 'No results could be displayed';
 $lang['TEXT_NORESULTS_SEARCH'] = 'No results found for';
