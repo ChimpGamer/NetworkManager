@@ -1,4 +1,4 @@
-<?php //Last updated 2-2-18
+<?php //Last updated 12-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
@@ -156,6 +156,7 @@ $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Command toevoegen';
 
 $lang['ANNOUNCEMENTS_TYPE'] = 'Type';
 $lang['ANNOUNCEMENTS_MESSAGE'] = 'Bericht';
+$lang['ANNOUNCEMENTS_CREATE_ANNOUNCEMENT'] = 'Creeër Mededelingen';
 
 $lang['GROUPANDACCOUNTS_GROUP'] = 'Groep';
 $lang['GROUPANDACCOUNTS_USER'] = 'Gebruikers';
@@ -218,6 +219,10 @@ $lang['VAR_BY'] = 'Door';
 $lang['VAR_ALL'] = 'ALLE';
 $lang['VAR_UNKNOWN'] = 'Onbekend';
 $lang['VAR_BACK'] = 'Terug';
+$lang['VAR_ACTIVE'] = 'Actief';
+$lang['VAR_INACTIVE'] = 'Inactief';
+$lang['VAR_TRUE'] = 'Ja';
+$lang['VAR_FALSE'] = 'Nee';
 
 $lang['TEXT_NORESULTS'] = 'Er kunnen geen resultaten worden weergegeven';
 $lang['TEXT_NORESULTS_SEARCH'] = 'Geen resultaten gevonden voor';
