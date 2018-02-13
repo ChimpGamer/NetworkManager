@@ -1,4 +1,4 @@
-<?php //Last updated 12-2-18
+<?php //Last updated 13-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -131,7 +131,7 @@ $lang['PERMISSIONS_GROUP_NAME'] = 'Name';
 $lang['PERMISSIONS_GROUP_LADDER'] = 'Ladder';
 $lang['PERMISSIONS_GROUP_RANK'] = 'Rank';
 $lang['PERMISSIONS_PERMISSION_WORLD'] = 'World';
-$lang['PERMISSIONS_PERMISSION_EXPIRES'] = 'Expires';
+$lang['PERMISSIONS_EXPIRES'] = 'Expires';
 $lang['PERMISSIONS_PREFIX'] = 'Prefix';
 $lang['PERMISSIONS_SUFFIX'] = 'Suffix';
 $lang['PERMISSIONS_WEIGHT'] = 'Weight';
@@ -229,6 +229,7 @@ $lang['VAR_ACTIVE'] = 'Active';
 $lang['VAR_INACTIVE'] = 'Inactive';
 $lang['VAR_TRUE'] = 'True';
 $lang['VAR_FALSE'] = 'False';
+$lang['VAR_NEVER'] = 'Never';
 
 $lang['TEXT_NORESULTS'] = 'No results could be displayed';
 $lang['TEXT_NORESULTS_SEARCH'] = 'No results found for';
