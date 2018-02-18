@@ -1,12 +1,9 @@
-<?php //Dernière mise à jour 31/01/2018 par jobogamer24
+<?php //Dernière mise à jour 19/02/2018 par jobogamer24
 $lang = array();
-
 $lang['LANGUAGE'] = 'Français';
 $lang['AUTHOR'] = 'jobogamer24';
-
 $lang['TITLE_OVERVIEW'] = 'Aperçu';
 $lang['TITLE_ANALYTICS'] = 'Analytique';
-
 $lang['TITLE_PLAYERS'] = 'Joueurs';
 $lang['TITLE_PUNISHMENTS'] = 'Les sanctions';
 $lang['TITLE_REPORTS'] = 'Les signalements';
@@ -14,29 +11,25 @@ $lang['TITLE_CHAT'] = 'Chat';
 $lang['TITLE_CHATLOGS'] = 'ChatLogs';
 $lang['TITLE_HELPOP'] = 'Aide';
 $lang['TITLE_TICKETS'] = 'Les billets';
-
 $lang['TITLE_SETTINGS'] = 'Paramètres';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
+$lang['TITLE_TAGS'] = 'Tags';
 $lang['TITLE_FILTER'] = 'Filtre';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
+$lang['TITLE_ANNOUNCEMENTS'] = 'Annonces';
 $lang['TITLE_TABCOMPLETECOMMANDS'] = 'TabCompleteCommands';
-
 $lang['TITLE_GROUPSANDACCOUNTS'] = 'Groupes et comptes';
-
 $lang['TITLE_TASKS'] = 'Tâches';
 $lang['TITLE_ACCOUNTSETTINGS'] = 'Paramètres du compte';
 $lang['TITLE_LOGOUT'] = 'Déconnexion';
-
 $lang['TITLE_DASHBOARD'] = 'Tableau de bord';
 $lang['TITLE_NETWORK'] = 'Configuration Général';
 $lang['TITLE_ADMINISTRATION'] = 'Administration';
 $lang['TITLE_NETWORKSETTINGS'] = 'Paramètres réseau';
 $lang['TITLE_ADDONS'] = 'Addons';
 $lang['TITLE_ACCOUNT'] = 'Compte';
-
 $lang['TITLE_MOTDANDMAINTENANCE'] = 'MOTD & Maintenance';
-
 $lang['DASHBOARD_TOTALPLAYERS'] = 'Total des joueurs';
 $lang['DASHBOARD_TODAYONLINEPLAYERS'] = "Joueurs en ligne d''aujourd''hui";
 $lang['DASHBOARD_TODAYSNEWPLAYERS'] = "Les nouveaux joueurs d''aujourd''hui";
@@ -50,7 +43,6 @@ $lang['ANALYTICS_PLAYERREGIONS'] = 'Régions de joueurs';
 $lang['ANALYTICS_PLAYTIME'] = 'Temps de jeux';
 $lang['ANALYTICS_USERRETENTION'] = "Rétention de l''utilisateur";
 $lang['ANALYTICS_FUTUREPORJECTIONS'] = 'Projections futures';
-
 $lang['PLAYER_PLAYERINFORMATION'] = 'Informations sur le joueur';
 $lang['PLAYER_PLAYERSTATISTICS'] = 'Statistiques du joueur';
 $lang['PLAYER_LATESTSESSIONS'] = 'Dernières sessions';
@@ -71,7 +63,6 @@ $lang['PLAYER_AVERAGEPLAYTIME'] = 'Temps de jeu moyen';
 $lang['PLAYER_JOINSAT'] = 'Le joueur se joint normalement à';
 $lang['PLAYER_ALTACCOUNTS'] = 'Comptes supplémentaires';
 $lang['PLAYER_SEARCH'] = 'Rechercher un joueur par nom, UUID ou adresse IP';
-
 $lang['PUNISHMENTS_PUNISHMENT'] = 'Sanction';
 $lang['PUNISHMENTS_TYPE'] = 'Type';
 $lang['PUNISHMENTS_PUNISHED'] = 'Joueur';
@@ -85,24 +76,18 @@ $lang['PUNISHMENTS_UNBANNER'] = 'Débannisseur';
 $lang['PUNISHMENTS_ACTIVE'] = 'Actif';
 $lang['PUNISHMENTS_EXPIRED'] = 'Expiré';
 $lang['PUNISHMENTS_SEARCH'] = 'Rechercher un sanctionnement par IP, puni, punisseur ou raison';
-
 $lang['REPORTS_REPORT'] = 'Rapport'; // Ou Signaleur je ne sais plus trop. 
 $lang['REPORTS_REPORTER'] = 'Par';
 $lang['REPORTS_CLOSE'] = 'Fermer';
 $lang['REPORTS_SEARCH'] = 'Rechercher des rapports par joueur, signaleur ou raison';
-
 $lang['CHAT_SEARCH'] = 'Rechercher un message par uuid, message, serveur ou ip';
-
 $lang['NOTES_NOTE'] = 'Note';
-
 $lang['CHATLOG_CHATLOGID'] = 'Chatlog ID';
 $lang['CHATLOG_TRACKED'] = 'Suivi';
 $lang['CHATLOG_CHATLOGS'] = 'Chatlogs';
 $lang['CHATLOG_SEARCH'] = 'Rechercher dans le chatlog par créateur, uuid ou suivi';
-
 $lang['HELPOP_REQUESTER'] = 'Demandeur';
 $lang['HELPOP_SEARCH'] = "Rechercher des demandes d''aide par demandeur, serveur ou message";
-
 $lang['TICKET_TICKET'] = 'Ticket';
 $lang['TICKET_TITLE'] = 'Titre';
 $lang['TICKET_ASSIGNEDTO'] = 'Assigné à';
@@ -116,15 +101,16 @@ $lang['TICKET_PRIORITY_LOW'] = 'Petite';
 $lang['TICKET_PRIORITY_MEDIUM'] = 'Moyenne';
 $lang['TICKET_PRIORITY_HIGH'] = 'Haute';
 $lang['TICKET_PRIORITY_NO_PRIORITY'] = 'Aucune';
-
 $lang['SETTINGS_SEARCH'] = 'Paramètre de recherche par variable';
-
 $lang['MOTD_MOTDGENERATOR'] = 'Générateur MOTD';
 $lang['MOTD_KICKMSG'] = "Message d''expulsion";
 $lang['MOTD_PREVIEW'] = 'Aperçu';
 $lang['MOTD_MAINTENANCEMODE'] = 'Mode Maintenance';
-
 $lang['PERMISSIONS_GROUP_NAME'] = 'Pseudo';
+$lang['PERMISSIONS_GROUP_LADDER'] = 'Importance';
+$lang['PERMISSIONS_GROUP_RANK'] = 'Rangs';
+$lang['PERMISSIONS_PERMISSIONS_WORLD'] = 'Monde';
+$lang['PERMISSIONS_EXPIRES'] = 'Expiré';
 $lang['PERMISSIONS_PREFIX'] = 'Prefix';
 $lang['PERMISSIONS_SUFFIX'] = 'Suffix';
 $lang['PERMISSIONS_WEIGHT'] = 'Importance';
@@ -136,27 +122,26 @@ $lang['PERMISSIONS_GROUP_MEMBER_ADD'] = 'Ajouter un Membre';
 $lang['PERMISSIONS_GROUP_MEMBER_LIST'] = 'Liste des Membres';
 $lang['PERMISSIONS_GROUP_SEARCH'] = 'Rechercher le group par son ID ou son Nom';
 $lang['PERMISSIONS_PLAYER_SEARCH'] = 'Rechercher le joueur par son nom, son préfix ou son suffix';
-
 $lang['PERMISSIONS_EDITPERMS'] = 'Modifier les permissions';
 $lang['PERMISSIONS_EDITINHERITANCES'] = 'Modifier les héritages (Inheritances)';
 $lang['PERMISSIONS_EDITGROUPSETTINGS'] = 'Modifier les paramètres du groupe';
 $lang['PERMISSIONS_SELECTGROUP'] = 'Sélectionner un groupe';
-
+$lang['TAGS_TAG_NAME'] = 'Name';
+$lang['TAGS_TAG_TAG'] = 'Tag';
+$lang['TAGS_TAG_DESCRIPTION'] = 'Description';
+$lang['TAGS_TAG_CREATE'] = 'Crée un Tag';
 $lang['FILTER_ADDWORD'] = 'Ajouter un mot';
-
 $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Ajouter une commande';
-
+$lang['ANNOUNCEMENTS_TYPE'] = 'Type';
+$lang['ANNOUNCEMENTS_MESSAGE'] = 'Message';
+$lang['ANNOUNCEMENTS_CREATE_ANNOUNCEMENT'] = 'Créé une Annonce';
 $lang['TABCOMPLETECOMMANDS_ADDCOMMAND'] = 'Ajouter une commande';
-
 $lang['GROUPANDACCOUNTS_GROUP'] = 'Groupe';
 $lang['GROUPANDACCOUNTS_USER'] = 'Utilisateur';
-
 $lang['TASKS_YOURTASKS'] = 'Vos tâches';
-
 $lang['ACCOUNTSETTINGS_OLDPASS'] = 'Ancien mot de passe';
 $lang['ACCOUNTSETTINGS_NEWPASS'] = 'Nouveau mot de passe';
 $lang['ACCOUNTSETTINGS_SELECTED_LANG'] = 'Langue sélectionnée:';
-
 $lang['LOGIN_TITLE'] = 'NetworkManager';
 $lang['LOGIN_USERNAME'] = "Nom d''utilisateur";
 $lang['LOGIN_PASSWORD'] = 'Mot de passe';
@@ -165,7 +150,6 @@ $lang['LOGIN_LOGIN'] = 'Connexion';
 $lang['LOGIN_WRONGPASSWORD'] = 'Mot de passe invalide.';
 $lang['LOGIN_LOGGINGIN'] = 'Redirection en cours. Patientez...';
 $lang['LOGIN_NODBCONNECTION'] = 'Une erreur est survenue contactez un Administrateur (Base de données)';
-
 $lang['VAR_ID'] = 'ID';
 $lang['VAR_VIEW'] = 'Voir';
 $lang['VAR_PUNISHMENT'] = 'Sanctionnement';
@@ -209,7 +193,11 @@ $lang['VAR_BY'] = 'par';
 $lang['VAR_ALL'] = 'ALL';
 $lang['VAR_UNKNOWN'] = 'Inconnu';
 $lang['VAR_BACK'] = 'Retour';
-
+$lang['VAR_ACTIVE'] = 'Actif';
+$lang['VAR_INACTIVE'] = 'Inactif';
+$lang['VAR_TRUE'] = 'Activé';
+$lang['VAR_FALSE'] = 'Désactivé';
+$lang['VAR_NEVER'] = 'Jamais';
 $lang['TEXT_NORESULTS'] = "Aucun résultat n''a pu être affiché";
 $lang['TEXT_NORESULTS_SEARCH'] = 'Aucun résultat trouvé pour';
 $lang['TEXT_SELECTOPTION'] = ' -- Choisir une option -- ';
