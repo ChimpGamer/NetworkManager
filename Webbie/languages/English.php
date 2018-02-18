@@ -1,4 +1,4 @@
-<?php //Last updated 13-2-18
+<?php //Last updated 18-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
