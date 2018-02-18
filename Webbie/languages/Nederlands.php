@@ -46,6 +46,7 @@ $lang['DASHBOARD_TODAYSNEWPLAYERS'] = 'Nieuwe Spelers Vandaag';
 $lang['DASHBOARD_TODAYSPLAYTIME'] = 'Speel tijd Vandaag';
 $lang['DASHBOARD_PLAYERSTATISTICS'] = 'Speler Statistieken';
 $lang['DASHBOARD_NEWESTPLAYERS'] = 'Nieuwste Spelers';
+
 $lang['ANALYTICS_ONLINE'] = 'Online';
 $lang['ANALYTICS_AVERAGESTATS'] = 'Gemiddelde Stats';
 $lang['ANALYTICS_MOSTPLAYEDVERSIONS'] = 'Meest gespeelde versies';
@@ -87,7 +88,7 @@ $lang['PUNISHMENTS_STATUS'] = 'Status';
 $lang['PUNISHMENTS_UNBANNER'] = 'Unbanner';
 $lang['PUNISHMENTS_ACTIVE'] = 'Actief';
 $lang['PUNISHMENTS_EXPIRED'] = 'Verlopen';
-$lang['PUNISHMENTS_SEARCH'] = 'Zoek straffen d.m.v ip, gestraft, straffer of redenSearch punishment by ip, punished, punisher or reason';
+$lang['PUNISHMENTS_SEARCH'] = 'Zoek straffen d.m.v ip, gestraft, straffer of reden';
 
 $lang['REPORTS_REPORT'] = 'Report';
 $lang['REPORTS_REPORTER'] = 'Reporter';
