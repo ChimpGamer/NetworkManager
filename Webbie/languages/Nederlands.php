@@ -1,4 +1,4 @@
-<?php //Last updated 12-2-18
+<?php //Last updated 18-2-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
@@ -128,9 +128,12 @@ $lang['MOTD_PREVIEW'] = 'Voorbeeld';
 $lang['MOTD_MAINTENANCEMODE'] = 'Onderhoudsstand';
 
 $lang['PERMISSIONS_GROUP_NAME'] = 'Naam';
+$lang['PERMISSIONS_GROUP_LADDER'] = 'Ladder';
+$lang['PERMISSIONS_GROUP_RANK'] = 'Rank';
+$lang['PERMISSIONS_PERMISSIONS_WORLD'] = 'Wereld';
+$lang['PERMISSIONS_EXPIRES'] = 'Verloopt';
 $lang['PERMISSIONS_PREFIX'] = 'Voorvoegsel';
 $lang['PERMISSIONS_SUFFIX'] = 'Achtervoegsel';
-$lang['PERMISSIONS_WEIGHT'] = 'Gewicht';
 $lang['PERMISSIONS_ISDEFAULT'] = 'isStandaard';
 $lang['PERMISSIONS_PERMISSION'] = 'Permissie';
 $lang['PERMISSIONS_GROUP_CREATE'] = 'Creeër Group';
@@ -223,6 +226,7 @@ $lang['VAR_ACTIVE'] = 'Actief';
 $lang['VAR_INACTIVE'] = 'Inactief';
 $lang['VAR_TRUE'] = 'Ja';
 $lang['VAR_FALSE'] = 'Nee';
+$lang['VAR_NEVER'] = 'Nooit';
 
 $lang['TEXT_NORESULTS'] = 'Er kunnen geen resultaten worden weergegeven';
 $lang['TEXT_NORESULTS_SEARCH'] = 'Geen resultaten gevonden voor';
