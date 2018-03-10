@@ -1,4 +1,4 @@
-<?php //Last updated 18-2-18
+<?php //Last updated 10-3-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -18,6 +18,7 @@ $lang['TITLE_TICKETS'] = 'Tickets';
 $lang['TITLE_SETTINGS'] = 'Settings';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
+$lang['TITLE_SERVERS'] = 'Servers';
 $lang['TITLE_TAGS'] = 'Tags';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
@@ -45,6 +46,8 @@ $lang['DASHBOARD_TODAYSNEWPLAYERS'] = 'Todays New Players';
 $lang['DASHBOARD_TODAYSPLAYTIME'] = 'Todays Playtime';
 $lang['DASHBOARD_PLAYERSTATISTICS'] = 'Player Statistics';
 $lang['DASHBOARD_NEWESTPLAYERS'] = 'Newest Players';
+$lang['DASHBOARD_PLAYERSTATISTICS_TOOLTIP'] = 'Shows useful stats of the playercount from the last 60 days';
+$lang['DASHBOARD_NEWESTPLAYERS_TOOLTOP'] = 'Shows a map with the locations of players that have joined the last 60 days';
 
 $lang['ANALYTICS_ONLINE'] = 'Online';
 $lang['ANALYTICS_AVERAGESTATS'] = 'Average Stats';
@@ -53,6 +56,13 @@ $lang['ANALYTICS_PLAYERREGIONS'] = 'Player Regions';
 $lang['ANALYTICS_PLAYTIME'] = 'Playtime';
 $lang['ANALYTICS_USERRETENTION'] = 'User Retention';
 $lang['ANALYTICS_FUTUREPORJECTIONS'] = 'Future Projections';
+$lang['ANALYTICS_ONLINE_TOOLTOP'] = 'Graph of the online players of all time';
+$lang['ANALYTICS_AVERAGESTATS_TOOLTOP'] = 'ANPPD(Average New Players Per Day) and ARPPD(Average Returning Player Per Day) show stats on monthly, weekly and daily basis';
+$lang['ANALYTICS_MOSTPLAYEDVERSIONS_TOOLTIP'] = 'Shows the most played Minecraft versions of your player shown as amount and percentage';
+$lang['ANALYTICS_PLAYERREGIONS_TOOLTIP'] = 'Shows where from which country your players come from in a bar-chart and a map';
+$lang['ANALYTICS_PLAYTIME_TOOLTIP'] = 'Shows the total amount of the playtime on your network today, this week and the total';
+$lang['ANALYTICS_USERRETENTION_TOOLTIP'] = 'What percentage of players returns after their first join. Shown in days';
+$lang['ANALYTICS_FUTUREPORJECTIONS_TOOLTIP'] = 'This algorithm will show you eventual future projections of new players and active players';
 
 $lang['PLAYER_PLAYERINFORMATION'] = 'Player Information';
 $lang['PLAYER_PLAYERSTATISTICS'] = 'Player Statistics';
@@ -87,14 +97,14 @@ $lang['PUNISHMENTS_STATUS'] = 'Status';
 $lang['PUNISHMENTS_UNBANNER'] = 'Unbanner';
 $lang['PUNISHMENTS_ACTIVE'] = 'Active';
 $lang['PUNISHMENTS_EXPIRED'] = 'Expired';
-$lang['PUNISHMENTS_SEARCH'] = 'Search punishment by ip, punished, punisher or reason';
+$lang['PUNISHMENTS_SEARCH'] = 'Search punishment by player, punisher, ip or reason';
 
 $lang['REPORTS_REPORT'] = 'Report';
 $lang['REPORTS_REPORTER'] = 'Reporter';
 $lang['REPORTS_CLOSE'] = 'Close';
 $lang['REPORTS_SEARCH'] = 'Search reports by player, reporter or reason';
 
-$lang['CHAT_SEARCH'] = 'Search chat by uuid, message, server or ip';
+$lang['CHAT_SEARCH'] = 'Search chat by username, uuid, message, server or ip';
 
 $lang['NOTES_NOTE'] = 'Note';
 
@@ -134,20 +144,22 @@ $lang['PERMISSIONS_PERMISSIONS_WORLD'] = 'World';
 $lang['PERMISSIONS_EXPIRES'] = 'Expires';
 $lang['PERMISSIONS_PREFIX'] = 'Prefix';
 $lang['PERMISSIONS_SUFFIX'] = 'Suffix';
-$lang['PERMISSIONS_WEIGHT'] = 'Weight';
 $lang['PERMISSIONS_ISDEFAULT'] = 'isDefault';
 $lang['PERMISSIONS_PERMISSION'] = 'Permission';
 $lang['PERMISSIONS_GROUP_CREATE'] = 'Create Group';
+$lang['PERMISSIONS_GROUP_PREFIX_ADD'] = 'Add Prefix';
+$lang['PERMISSIONS_GROUP_SUFFIX_ADD'] = 'Add Suffix';
 $lang['PERMISSIONS_PERMISSION_ADD'] = 'Add permission';
 $lang['PERMISSIONS_GROUP_MEMBER_ADD'] = 'Add Member';
 $lang['PERMISSIONS_GROUP_MEMBER_LIST'] = 'List Members';
 $lang['PERMISSIONS_GROUP_SEARCH'] = 'Search Group by ID or Name';
 $lang['PERMISSIONS_PLAYER_SEARCH'] = 'Search Player by Name, Prefix or Suffix';
 
-$lang['PERMISSIONS_EDITPERMS'] = 'Edit Permissions';
-$lang['PERMISSIONS_EDITINHERITANCES'] = 'Edit Inheritances';
-$lang['PERMISSIONS_EDITGROUPSETTINGS'] = 'Edit Group Settings';
-$lang['PERMISSIONS_SELECTGROUP'] = 'Select Group';
+$lang['SERVERS_PORT'] = 'Port';
+$lang['SERVERS_MOTD'] = 'Motd';
+$lang['SERVERS_RESTRICTED'] = 'Restricted';
+$lang['SERVERS_ISLOBBY'] = 'isLobby';
+$lang['SERVERS_ADD_SERVER'] = 'Add Server';
 
 $lang['TAGS_TAG_NAME'] = 'Name';
 $lang['TAGS_TAG_TAG'] = 'Tag';
@@ -230,6 +242,7 @@ $lang['VAR_INACTIVE'] = 'Inactive';
 $lang['VAR_TRUE'] = 'True';
 $lang['VAR_FALSE'] = 'False';
 $lang['VAR_NEVER'] = 'Never';
+$lang['VAR_IP'] = 'IP';
 
 $lang['TEXT_NORESULTS'] = 'No results could be displayed';
 $lang['TEXT_NORESULTS_SEARCH'] = 'No results found for';
