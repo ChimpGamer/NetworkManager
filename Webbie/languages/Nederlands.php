@@ -1,4 +1,4 @@
-<?php //Last updated 18-2-18
+<?php //Last updated 10-3-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
@@ -18,6 +18,7 @@ $lang['TITLE_TICKETS'] = 'Tickets';
 $lang['TITLE_SETTINGS'] = 'Instellingen';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
+$lang['TITLE_SERVERS'] = 'Servers';
 $lang['TITLE_TAGS'] = 'Labels';
 $lang['TITLE_FILTER'] = 'Filter';
 $lang['TITLE_COMMANDBLOCKER'] = 'CommandBlocker';
@@ -46,6 +47,8 @@ $lang['DASHBOARD_TODAYSNEWPLAYERS'] = 'Nieuwe Spelers Vandaag';
 $lang['DASHBOARD_TODAYSPLAYTIME'] = 'Speel tijd Vandaag';
 $lang['DASHBOARD_PLAYERSTATISTICS'] = 'Speler Statistieken';
 $lang['DASHBOARD_NEWESTPLAYERS'] = 'Nieuwste Spelers';
+$lang['DASHBOARD_PLAYERSTATISTICS_TOOLTIP'] = 'Shows useful stats of the playercount from the last 60 days';
+$lang['DASHBOARD_NEWESTPLAYERS_TOOLTOP'] = 'Shows a map with the locations of players that have joined the last 60 days';
 
 $lang['ANALYTICS_ONLINE'] = 'Online';
 $lang['ANALYTICS_AVERAGESTATS'] = 'Gemiddelde Stats';
@@ -54,6 +57,13 @@ $lang['ANALYTICS_PLAYERREGIONS'] = "Speler Regio's";
 $lang['ANALYTICS_PLAYTIME'] = 'Speel tijd';
 $lang['ANALYTICS_USERRETENTION'] = 'User Retention';
 $lang['ANALYTICS_FUTUREPORJECTIONS'] = 'Future Projections';
+$lang['ANALYTICS_ONLINE_TOOLTOP'] = 'Graph of the online players of all time';
+$lang['ANALYTICS_AVERAGESTATS_TOOLTOP'] = 'ANPPD(Average New Players Per Day) and ARPPD(Average Returning Player Per Day) show stats on monthly, weekly and daily basis';
+$lang['ANALYTICS_MOSTPLAYEDVERSIONS_TOOLTIP'] = 'Shows the most played Minecraft versions of your player shown as amount and percentage';
+$lang['ANALYTICS_PLAYERREGIONS_TOOLTIP'] = 'Shows where from which country your players come from in a bar-chart and a map';
+$lang['ANALYTICS_PLAYTIME_TOOLTIP'] = 'Shows the total amount of the playtime on your network today, this week and the total';
+$lang['ANALYTICS_USERRETENTION_TOOLTIP'] = 'What percentage of players returns after their first join. Shown in days';
+$lang['ANALYTICS_FUTUREPORJECTIONS_TOOLTIP'] = 'This algorithm will show you eventual future projections of new players and active players';
 
 $lang['PLAYER_PLAYERINFORMATION'] = 'Speler Informatie';
 $lang['PLAYER_PLAYERSTATISTICS'] = 'Speler Statistieken';
@@ -144,10 +154,11 @@ $lang['PERMISSIONS_GROUP_MEMBER_LIST'] = 'Lijst Leden';
 $lang['PERMISSIONS_GROUP_SEARCH'] = 'Zoek Group d.m.v. ID of Naam';
 $lang['PERMISSIONS_PLAYER_SEARCH'] = 'Zoek Speler d.m.v. Naam, Voorvoegsel or Achtervoegsel';
 
-$lang['PERMISSIONS_EDITPERMS'] = 'Edit Permissions';
-$lang['PERMISSIONS_EDITINHERITANCES'] = 'Verander Erfdeel';
-$lang['PERMISSIONS_EDITGROUPSETTINGS'] = 'Verander Groep Instellingen';
-$lang['PERMISSIONS_SELECTGROUP'] = 'Selecteer groep';
+$lang['SERVERS_PORT'] = 'Poort';
+$lang['SERVERS_MOTD'] = 'Motd';
+$lang['SERVERS_RESTRICTED'] = 'Beperkt';
+$lang['SERVERS_ISLOBBY'] = 'isLobby';
+$lang['SERVERS_ADD_SERVER'] = 'Server Toevoegen';
 
 $lang['TAGS_TAG_NAME'] = 'Naam';
 $lang['TAGS_TAG_TAG'] = 'Label';
@@ -228,6 +239,7 @@ $lang['VAR_INACTIVE'] = 'Inactief';
 $lang['VAR_TRUE'] = 'Ja';
 $lang['VAR_FALSE'] = 'Nee';
 $lang['VAR_NEVER'] = 'Nooit';
+$lang['VAR_IP'] = 'IP';
 
 $lang['TEXT_NORESULTS'] = 'Er kunnen geen resultaten worden weergegeven';
 $lang['TEXT_NORESULTS_SEARCH'] = 'Geen resultaten gevonden voor';
