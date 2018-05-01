@@ -1,7 +1,8 @@
-<?php //Last updated 10-3-18
+<?php //Last updated 01-4-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
+$lang['THEME'] = 'Default';
 $lang['AUTHOR'] = 'ChimpGamer';
 
 $lang['TITLE_OVERVIEW'] = 'Overview';
@@ -185,6 +186,7 @@ $lang['TASKS_YOURTASKS'] = 'Your Tasks';
 $lang['ACCOUNTSETTINGS_OLDPASS'] = 'Old Password';
 $lang['ACCOUNTSETTINGS_NEWPASS'] = 'New Password';
 $lang['ACCOUNTSETTINGS_SELECTED_LANG'] = 'Selected language:';
+$lang['ACCOUNTSETTINGS_SELECTED_THEME'] = 'Selected theme:';
 
 $lang['LOGIN_TITLE'] = 'NetworkManager';
 $lang['LOGIN_USERNAME'] = 'Username';
@@ -225,6 +227,7 @@ $lang['VAR_DEFAULT'] = 'Default';
 $lang['VAR_ACTION'] = 'Action';
 $lang['VAR_PASSWORD'] = 'Password';
 $lang['VAR_LANGUAGES'] = 'Languages';
+$lang['VAR_THEMES'] = 'Themes';
 $lang['VAR_GLOBAL'] = 'Global';
 $lang['VAR_SAVE'] = 'Save';
 $lang['VAR_CANCEL'] = 'Cancel';
