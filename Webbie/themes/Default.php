@@ -1,4 +1,4 @@
 <?php //Last updated 1-5-18
 $themefile = array();
 
-$themefile['DIRECTORY'] = '/default/';
+$themefile['DIRECTORY'] = 'default';
