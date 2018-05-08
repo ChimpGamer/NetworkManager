@@ -1,4 +1,4 @@
-<?php //Last updated 01-4-18
+<?php //Last updated 8-5-2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -133,6 +133,8 @@ $lang['TICKET_PRIORITY_NO_PRIORITY'] = 'No Priority';
 
 $lang['SETTINGS_SEARCH'] = 'Search setting by variable';
 
+$lang['LANGUAGE_NAME'] = 'Name';
+
 $lang['MOTD_MOTDGENERATOR'] = 'MOTD Generator';
 $lang['MOTD_KICKMSG'] = 'Kick Message';
 $lang['MOTD_PREVIEW'] = 'Preview';
@@ -161,6 +163,7 @@ $lang['SERVERS_PORT'] = 'Port';
 $lang['SERVERS_MOTD'] = 'Motd';
 $lang['SERVERS_RESTRICTED'] = 'Restricted';
 $lang['SERVERS_ISLOBBY'] = 'isLobby';
+$lang['SERVERS_ONLINE'] = 'Online';
 $lang['SERVERS_ADD_SERVER'] = 'Add Server';
 
 $lang['TAGS_TAG_NAME'] = 'Name';
