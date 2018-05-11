@@ -1,8 +1,10 @@
-<?php //Last updated 10-3-18
+<?php //Last updated 11-5-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
 $lang['AUTHOR'] = 'ChimpGamer';
+
+$lang['THEME'] = 'Default';
 
 $lang['TITLE_OVERVIEW'] = 'Overview';
 $lang['TITLE_ANALYTICS'] = 'Analytics';
@@ -133,6 +135,8 @@ $lang['TICKET_PRIORITY_NO_PRIORITY'] = 'Geen Prioriteit';
 
 $lang['SETTINGS_SEARCH'] = 'Zoek instellingen d.m.v. variable';
 
+$lang['LANGUAGE_NAME'] = 'Naam';
+
 $lang['MOTD_MOTDGENERATOR'] = 'MOTD Generator';
 $lang['MOTD_KICKMSG'] = 'Kick Bericht';
 $lang['MOTD_PREVIEW'] = 'Voorbeeld';
@@ -184,6 +188,7 @@ $lang['TASKS_YOURTASKS'] = 'Jouw Taken';
 $lang['ACCOUNTSETTINGS_OLDPASS'] = 'Oude Wachtwoord';
 $lang['ACCOUNTSETTINGS_NEWPASS'] = 'Nieuwe Wachtwoord';
 $lang['ACCOUNTSETTINGS_SELECTED_LANG'] = 'Geselecteerde taal:';
+$lang['ACCOUNTSETTINGS_SELECTED_THEME'] = 'Geselecteerde thema:';
 
 $lang['LOGIN_TITLE'] = 'NetworkManager';
 $lang['LOGIN_USERNAME'] = 'Gebruikersnaam';
