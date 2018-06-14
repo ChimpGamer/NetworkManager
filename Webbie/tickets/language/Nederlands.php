@@ -14,13 +14,19 @@ $lang['HOME_ACTION'] = 'Actie';
 $lang['MENU_HOME'] = 'Home';
 $lang['MENU_TICKETS'] = 'Tickets';
 $lang['MENU_TICKETS_CREATETICKET'] = 'Creeër Ticket';
+$lang['MENU_SETTINGS'] = 'Instellingen';
 $lang['MENU_LOGOUT'] = 'Uitloggen';
 
 $lang['TICKET_CREATE_TITLE'] = 'Titel';
 $lang['TICKET_CREATE_MESSAGE'] = 'Bericht';
 $lang['TICKET_CREATE_SUBMIT'] = 'Verstuur';
 
+$lang['SETTINGS_LANGUAGE'] = 'Taal';
+$lang['SETTINGS_THEME'] = 'Thema';
+
 $lang['VAR_NO_RESPONSE'] = 'Geen reactie';
 $lang['VAR_OPEN'] = 'OPEN';
 $lang['VAR_CLOSED'] = 'GESLOTEN';
 $lang['VAR_VIEW'] = 'bekijk';
+$lang['VAR_SAVE']= 'Opslaan';
+$lang['VAR_BY'] = 'door';
