@@ -14,13 +14,19 @@ $lang['HOME_ACTION'] = 'Action';
 $lang['MENU_HOME'] = 'Home';
 $lang['MENU_TICKETS'] = 'Tickets';
 $lang['MENU_TICKETS_CREATETICKET'] = 'Create Ticket';
+$lang['MENU_SETTINGS'] = 'Settings';
 $lang['MENU_LOGOUT'] = 'Logout';
 
 $lang['TICKET_CREATE_TITLE'] = 'Title';
 $lang['TICKET_CREATE_MESSAGE'] = 'Message';
 $lang['TICKET_CREATE_SUBMIT'] = 'Submit';
 
+$lang['SETTINGS_LANGUAGE'] = 'Language';
+$lang['SETTINGS_THEME'] = 'Theme';
+
 $lang['VAR_NO_RESPONSE'] = 'No Response';
 $lang['VAR_OPEN'] = 'OPEN';
 $lang['VAR_CLOSED'] = 'CLOSED';
 $lang['VAR_VIEW'] = 'view';
+$lang['VAR_SAVE']= 'Save';
+$lang['VAR_BY'] = 'by';
