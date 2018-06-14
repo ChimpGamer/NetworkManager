@@ -1,4 +1,4 @@
-<?php //Last updated 09-03-18
+<?php //Last updated 14-06-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Deutsch';
@@ -14,13 +14,19 @@ $lang['HOME_ACTION'] = 'Aktion';
 $lang['MENU_HOME'] = 'Start';
 $lang['MENU_TICKETS'] = 'Tickets';
 $lang['MENU_TICKETS_CREATETICKET'] = 'Ticket erstellen';
+$lang['MENU_SETTINGS'] = 'Settings';
 $lang['MENU_LOGOUT'] = 'Ausloggen';
 
 $lang['TICKET_CREATE_TITLE'] = 'Titel';
 $lang['TICKET_CREATE_MESSAGE'] = 'Nachricht';
 $lang['TICKET_CREATE_SUBMIT'] = 'Ticket erstellen';
 
+$lang['SETTINGS_LANGUAGE'] = 'Language';
+$lang['SETTINGS_THEME'] = 'Theme';
+
 $lang['VAR_NO_RESPONSE'] = 'Keine Antwort';
 $lang['VAR_OPEN'] = 'Offen';
 $lang['VAR_CLOSED'] = 'Geschlossen';
 $lang['VAR_VIEW'] = 'view';
+$lang['VAR_SAVE']= 'Save';
+$lang['VAR_BY'] = 'by';
