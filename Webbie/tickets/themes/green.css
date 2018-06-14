@@ -1,0 +1,42 @@
+.navbar-inverse {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.panel-primary {
+    border-color: darkgreen;
+}
+
+.panel-primary > .panel-heading {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #2f8912;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #2f8912
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: green;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #2c8011;
+    border-color: #2f8912;
+}
+
+.btn-primary:hover {
+    background-color: #2c8011;
+    border-color: #2f8912;
+}
