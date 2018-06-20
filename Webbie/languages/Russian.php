@@ -1,4 +1,4 @@
-<?php //Last updated 01/03/2018
+<?php //Last updated 20/06/2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'Russian';
@@ -16,6 +16,7 @@ $lang['TITLE_HELPOP'] = 'Помощь';
 $lang['TITLE_TICKETS'] = 'Тикеты';
 
 $lang['TITLE_SETTINGS'] = 'Настройки';
+$lang['TITLE_LANGUAGES'] = 'Languages';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Права';
 $lang['TITLE_TAGS'] = 'Теги';
