@@ -1,4 +1,4 @@
-<?php //Last updated 8-5-2018
+<?php //Last updated 20-6-2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -17,6 +17,7 @@ $lang['TITLE_HELPOP'] = 'Helpop';
 $lang['TITLE_TICKETS'] = 'Tickets';
 
 $lang['TITLE_SETTINGS'] = 'Settings';
+$lang['TITLE_LANGUAGES'] = 'Languages';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
 $lang['TITLE_SERVERS'] = 'Servers';
