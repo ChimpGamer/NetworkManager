@@ -1,4 +1,4 @@
-<?php //Dernière mise à jour 11/03/2018 par jobogamer24
+<?php //Dernière mise à jour 20/06/2018 par jobogamer24
 $lang = array();
 $lang['LANGUAGE'] = 'Français';
 $lang['AUTHOR'] = 'jobogamer24';
@@ -12,6 +12,7 @@ $lang['TITLE_CHATLOGS'] = 'ChatLogs';
 $lang['TITLE_HELPOP'] = 'Aide';
 $lang['TITLE_TICKETS'] = 'Les billets';
 $lang['TITLE_SETTINGS'] = 'Paramètres';
+$lang['TITLE_LANGUAGES'] = 'Languages';
 $lang['TITLE_MOTD'] = 'MOTD';
 $lang['TITLE_PERMISSIONS'] = 'Permissions';
 $lang['TITLE_SERVERS'] = 'Serveurs';
