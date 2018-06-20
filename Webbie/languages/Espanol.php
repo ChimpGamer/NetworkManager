@@ -16,6 +16,7 @@ $lang['TITLE_HELPOP'] = 'Helpop';
 $lang['TITLE_TICKETS'] = 'Tickets';
 
 $lang['TITLE_SETTINGS'] = 'Configuraci&oacute;n';
+$lang['TITLE_LANGUAGES'] = 'Languages';
 $lang['TITLE_MOTD'] = 'Mensaje del día';
 $lang['TITLE_PERMISSIONS'] = 'Permisos';
 $lang['TITLE_TAGS'] = 'Tags';
