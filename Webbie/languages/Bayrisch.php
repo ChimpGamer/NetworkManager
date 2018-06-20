@@ -1,4 +1,4 @@
-<?php //Last updated 05.03.2018
+<?php //Last updated 20.06.2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'Bayrisch/Boarisch - Wer moag a Bier?';
@@ -16,6 +16,7 @@ $lang['TITLE_HELPOP'] = 'Huifecenter';
 $lang['TITLE_TICKETS'] = 'Huife';
 
 $lang['TITLE_SETTINGS'] = 'Oanstellunga';
+$lang['TITLE_LANGUAGES'] = 'Languages';
 $lang['TITLE_MOTD'] = 'NDT';
 $lang['TITLE_PERMISSIONS'] = 'Erlaubnisse';
 $lang['TITLE_TAGS'] = 'Tags';
