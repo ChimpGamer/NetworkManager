@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# Execute this script with sudo!
+#
 read -p 'Set Web Directory (Example: /var/www/html/networkmanager) ' directory
 read -p 'Copy the download link of the NetworkManager file in Discord  ' downloadlink
 #
