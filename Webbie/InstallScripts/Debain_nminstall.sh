@@ -9,7 +9,7 @@ read -p 'Copy the download link of the NetworkManager file in Discord  ' downloa
 cd /tmp
 #
 #
-apt-get install -y software-properties-common
+apt-get install -y software-properties-common wget
 #
 apt-get install -y apt-transport-https lsb-release ca-certificates
 wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
