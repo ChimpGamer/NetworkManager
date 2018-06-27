@@ -1,9 +1,11 @@
-<?php //Last updated 20-6-2018
+<?php //Last updated 27-6-2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'Deutsch';
 $lang['THEME'] = 'Default';
 $lang['AUTHOR'] = 'X0R3';
+
+$lang['PANEL_TITLE'] = 'NetworkManager';
 
 $lang['TITLE_OVERVIEW'] = 'Übersicht';
 $lang['TITLE_ANALYTICS'] = 'Analysen';
