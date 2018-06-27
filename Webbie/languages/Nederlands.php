@@ -1,10 +1,12 @@
-<?php //Last updated 20-6-18
+<?php //Last updated 27-6-18
 $lang = array();
 
 $lang['LANGUAGE'] = 'Nederlands';
 $lang['AUTHOR'] = 'ChimpGamer';
 
 $lang['THEME'] = 'Default';
+
+$lang['PANEL_TITLE'] = 'NetworkManager';
 
 $lang['TITLE_OVERVIEW'] = 'Overview';
 $lang['TITLE_ANALYTICS'] = 'Analytics';
