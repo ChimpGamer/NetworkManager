@@ -4,6 +4,8 @@ $lang = array();
 $lang['LANGUAGE'] = 'Espa&ntilde;ol';
 $lang['AUTHOR'] = 'arkerooz';
 
+$lang['PANEL_TITLE'] = 'NetworkManager';
+
 $lang['TITLE_OVERVIEW'] = 'Inicio';
 $lang['TITLE_ANALYTICS'] = 'Estadisticas';
 
