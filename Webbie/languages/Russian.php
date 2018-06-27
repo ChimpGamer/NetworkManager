@@ -4,6 +4,8 @@ $lang = array();
 $lang['LANGUAGE'] = 'Russian';
 $lang['AUTHOR'] = 'Erik Ghazaryan';
 
+$lang['PANEL_TITLE'] = 'NetworkManager';
+
 $lang['TITLE_OVERVIEW'] = 'Обзор';
 $lang['TITLE_ANALYTICS'] = 'Аналитика';
 
