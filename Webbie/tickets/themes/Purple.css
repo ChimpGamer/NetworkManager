@@ -1,0 +1,42 @@
+.navbar-inverse {
+    background-color: #9C27B0;
+    border-color: darkviolet;
+}
+
+.panel-primary {
+    border-color: darkviolet;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #9C27B0;
+    border-color: darkviolet;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #8A12A1;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #8A12A1
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9C27B0;
+}
+
+.btn-primary {
+    background-color: #9C27B0;
+    border-color: darkviolet;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #9C27C3;
+    border-color: #8A12A1;
+}
+
+.btn-primary:hover {
+    background-color: #9C27C3;
+    border-color: #8A12A1;
+}
