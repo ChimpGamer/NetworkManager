@@ -1,7 +1,8 @@
-<?php //Dernière mise à jour 20/06/2018 par jobogamer24
+<?php //Dernière mise à jour 27/06/2018 par jobogamer24
 $lang = array();
 $lang['LANGUAGE'] = 'Français';
 $lang['AUTHOR'] = 'jobogamer24';
+$lang['PANEL_TITLE'] = 'NetworkManager';
 $lang['TITLE_OVERVIEW'] = 'Aperçu';
 $lang['TITLE_ANALYTICS'] = 'Analytique';
 $lang['TITLE_PLAYERS'] = 'Joueurs';
