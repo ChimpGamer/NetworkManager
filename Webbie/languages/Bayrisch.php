@@ -1,8 +1,10 @@
-<?php //Last updated 20.06.2018
+<?php //Last updated 27.06.2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'Bayrisch/Boarisch - Wer moag a Bier?';
 $lang['AUTHOR'] = 'Player_Schark';
+
+$lang['PANEL_TITLE'] = 'NetworkManager';
 
 $lang['TITLE_OVERVIEW'] = 'Schwarzes Brett';
 $lang['TITLE_ANALYTICS'] = 'Deppometer';
