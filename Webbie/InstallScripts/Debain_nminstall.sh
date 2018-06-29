@@ -18,7 +18,7 @@ echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt
 apt-get update
 apt-get install -y sudo apache2 nano zip
 #
-apt-get install -y php7.2 php7.2-cli php7.2-cgi php7.2-curl php7.2-mysql php7.2-common php7.2-pdo php7.2-xml libapache2-mod-php7.2
+apt-get install -y php7.2 php7.2-cli php7.2-cgi php7.2-curl php7.2-mysql php7.2-common php7.2-pdo php7.2-xml php7.2-mbstrig libapache2-mod-php7.2
 #
 a2enmod rewrite
 service apache2 restart
