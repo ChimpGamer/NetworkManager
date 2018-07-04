@@ -232,6 +232,7 @@ $lang['VAR_DEFAULT'] = 'Standaard';
 $lang['VAR_ACTION'] = 'Actie';
 $lang['VAR_PASSWORD'] = 'Wachtwoord';
 $lang['VAR_LANGUAGES'] = 'Talen';
+$lang['VAR_THEMES'] = 'Thema''s';
 $lang['VAR_GLOBAL'] = 'Globaal';
 $lang['VAR_SAVE'] = 'Opslaan';
 $lang['VAR_CANCEL'] = 'Annuleer';
