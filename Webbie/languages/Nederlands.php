@@ -169,6 +169,7 @@ $lang['SERVERS_MOTD'] = 'Motd';
 $lang['SERVERS_RESTRICTED'] = 'Beperkt';
 $lang['SERVERS_ISLOBBY'] = 'isLobby';
 $lang['SERVERS_ADD_SERVER'] = 'Server Toevoegen';
+$lang['SERVERS_ONLINE'] = 'Online';
 
 $lang['TAGS_TAG_NAME'] = 'Naam';
 $lang['TAGS_TAG_TAG'] = 'Label';
