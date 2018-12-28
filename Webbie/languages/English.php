@@ -1,4 +1,4 @@
-<?php //Last updated 23-6-2018
+<?php //Last updated 28-12-2018
 $lang = array();
 
 $lang['LANGUAGE'] = 'English';
@@ -88,8 +88,10 @@ $lang['PLAYER_AVERAGEPLAYTIME'] = 'Average Playtime';
 $lang['PLAYER_JOINSAT'] = 'Player normally joins at';
 $lang['PLAYER_ALTACCOUNTS'] = 'Additional Accounts';
 $lang['PLAYER_SEARCH'] = 'Search player by name, UUID or IP address';
+$lang['PLAYER_PREMIUM'] = 'Premium';
 
 $lang['PUNISHMENTS_PUNISHMENT'] = 'Punishment';
+$lang['PUNISHMENTS_ID'] = 'ID';
 $lang['PUNISHMENTS_TYPE'] = 'Type';
 $lang['PUNISHMENTS_PUNISHED'] = 'Punished';
 $lang['PUNISHMENTS_PUNISHER'] = 'Punisher';
@@ -173,6 +175,7 @@ $lang['TAGS_TAG_NAME'] = 'Name';
 $lang['TAGS_TAG_TAG'] = 'Tag';
 $lang['TAGS_TAG_DESCRIPTION'] = 'Description';
 $lang['TAGS_TAG_CREATE'] = 'Create Tag';
+$lang['TAGS_SEARCH'] = 'Search Tag by ID, Name or Tag';
 
 $lang['FILTER_ADDWORD'] = 'Add word';
 
@@ -221,6 +224,7 @@ $lang['VAR_DELETEKICK'] = 'DELETE KICK';
 $lang['VAR_UNWARN'] = 'UNWARN';
 $lang['VAR_DELETEWARN'] = 'DELETE WARN';
 $lang['VAR_MESSAGE'] = 'Message';
+$lang['VAR_HOVERMESSAGE'] = 'Hover Message';
 $lang['VAR_SERVER'] = 'Server';
 $lang['VAR_TICKET'] = 'Ticket';
 $lang['VAR_CREATOR'] = 'Creator';
