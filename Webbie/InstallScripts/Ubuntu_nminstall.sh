@@ -25,8 +25,8 @@ wget -O webbie.zip $downloadlink
 mkdir $directory
 unzip /tmp/webbie.zip -d $directory
 #
-chmod 777 $directory/inc/php/dep/config.php
-chmod 777 $directory/inc/json/settings.json
+chmod 777 $directory/inc/php/dep/protected/config.php
+chmod 777 $directory/inc/json/protected/settings.json
 chmod 777 -R $directory/inc/php/dep/languages
 #
 exit
