@@ -13,18 +13,18 @@ then
 		echo "Starting updating the panel..."
 		cd /tmp
 		wget -O webbie.zip $downloadlink
-		mv $directory/inc/php/dep/protected/config.php /tmp
-		mv $directory/inc/json/protected/settings.json /tmp
+		mv $directory/protected/config.php /tmp
+		mv $directory/protected/settings.json /tmp
 		mv $directory/inc/php/dep/languages /tmp
 		rm -rf $directory
 		mkdir $directory
 		unzip /tmp/webbie.zip -d $directory
 		rm -rf $directory/inc/php/dep/languages
-		mv /tmp/config.php $directory/inc/php/dep
-		mv /tmp/settings.json $directory/inc/json
+		mv /tmp/config.php $directory/protected
+		mv /tmp/settings.json $directory/protected
 		mv /tmp/languages $directory/inc/php/dep
-		chmod 664 $directory/inc/php/dep/protected/config.php
-		chmod 777 $directory/inc/json/protected/settings.json
+		chmod 664 $directory/protected/config.php
+		chmod 777 $directory/protected/settings.json
 		chmod 777 -R $directory/inc/php/dep/languages
 		echo "Update complete."
 	else
