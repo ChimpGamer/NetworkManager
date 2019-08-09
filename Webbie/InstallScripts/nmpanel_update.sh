@@ -19,6 +19,8 @@ then
 		rm -rf $directory
 		mkdir $directory
 		unzip /tmp/webbie.zip -d $directory
+		rm $directory/install.php
+		rm $directory/install_data.php
 		rm -rf $directory/inc/php/dep/languages
 		mv /tmp/config.php $directory/protected
 		mv /tmp/settings.json $directory/protected
