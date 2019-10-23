@@ -22,7 +22,7 @@ then
 		rm $directory/install.php
 		rm $directory/install_data.php
 		rm -rf $directory/inc/php/dep/languages
-		mv /tmp/config.php $directory/protected
+		mv /tmp/config.ini $directory/protected
 		mv /tmp/settings.json $directory/protected
 		mv /tmp/languages $directory/inc/php/dep
 		chmod 664 $directory/protected/config.ini
