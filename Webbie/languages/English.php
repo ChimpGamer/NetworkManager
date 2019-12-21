@@ -97,8 +97,7 @@ $lang['PUNISHMENTS_PUNISHED'] = 'Punished';
 $lang['PUNISHMENTS_PUNISHER'] = 'Punisher';
 $lang['PUNISHMENTS_TIME'] = 'Time';
 $lang['PUNISHMENTS_END'] = 'End';
-$lang['PUNISHMENTS_SERVER'] = 'Server';
-$lang['PUNISHMENTS_REASON'] = 'Reason';
+$lang['PUNISHMENTS_SILENT'] = 'Silent';
 $lang['PUNISHMENTS_STATUS'] = 'Status';
 $lang['PUNISHMENTS_UNBANNER'] = 'Unbanner';
 $lang['PUNISHMENTS_ACTIVE'] = 'Active';
@@ -111,6 +110,7 @@ $lang['REPORTS_CLOSE'] = 'Close';
 $lang['REPORTS_SEARCH'] = 'Search reports by player, reporter or reason';
 
 $lang['CHAT_SEARCH'] = 'Search chat by username, uuid, message, server or ip';
+$lang['CHAT_TYPE'] = "Type";
 
 $lang['NOTES_NOTE'] = 'Note';
 
@@ -183,6 +183,7 @@ $lang['COMMANDBLOCKER_ADDCOMMAND'] = 'Add command';
 
 $lang['ANNOUNCEMENTS_TYPE'] = 'Type';
 $lang['ANNOUNCEMENTS_MESSAGE'] = 'Message';
+$lang['ANNOUNCEMENTS_SOUND'] = 'Sound';
 $lang['ANNOUNCEMENTS_CREATE_ANNOUNCEMENT'] = 'Create Announcement';
 
 $lang['TABCOMPLETECOMMANDS_ADDCOMMAND'] = 'Add command';
@@ -258,6 +259,7 @@ $lang['VAR_TRUE'] = 'True';
 $lang['VAR_FALSE'] = 'False';
 $lang['VAR_NEVER'] = 'Never';
 $lang['VAR_IP'] = 'IP';
+$lang['VAR_DURATION'] = 'Duration';
 
 $lang['TEXT_NORESULTS'] = 'No results could be displayed';
 $lang['TEXT_NORESULTS_SEARCH'] = 'No results found for';
