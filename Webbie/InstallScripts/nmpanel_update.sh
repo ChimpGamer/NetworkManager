@@ -17,6 +17,7 @@ then
 		mv $directory/protected/settings.json /tmp
 		mv $directory/inc/php/dep/languages /tmp
 		mv $directory/inc/img /tmp
+		mv $directory/addons /tmp
 		rm -rf $directory
 		mkdir $directory
 		unzip /tmp/webbie.zip -d $directory
@@ -24,10 +25,12 @@ then
 		rm $directory/install_data.php
 		rm -rf $directory/inc/php/dep/languages
 		rm -rf $directory/inc/img
+		rm -rf $directory/addons
 		mv /tmp/config.ini $directory/protected
 		mv /tmp/settings.json $directory/protected
 		mv /tmp/languages $directory/inc/php/dep
 		mv /tmp/img $directory/inc
+		mv /tmp/addons $directory
 		chmod 664 $directory/protected/config.ini
 		chmod 777 $directory/protected/settings.json
 		chmod 777 -R $directory/inc/php/dep/languages
