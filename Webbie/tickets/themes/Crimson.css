@@ -1,47 +1,47 @@
 .navbar-inverse {
-    background-color: green;
-    border-color: darkgreen;
+    background-color: crimson;
+    border-color: #B01030;
 }
 
 .panel-primary {
-    border-color: darkgreen;
+    border-color: #B01030;
 }
 
 .panel-primary > .panel-heading {
-    background-color: green;
-    border-color: darkgreen;
+    background-color: crimson;
+    border-color: #B01030;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #2f8912;
+    background-color: #DC144B;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    background-color: #2f8912
+    background-color: #DC144B
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: green;
+    background-color: crimson;
 }
 
 .btn-primary {
-    background-color: green;
-    border-color: darkgreen;
+    background-color: crimson;
+    border-color: #B01030;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-    background-color: #2c8011;
-    border-color: #2f8912;
+    background-color: #DC114B;
+    border-color: #DC144B;
 }
 
 .btn-primary:hover {
-    background-color: #2c8011;
-    border-color: #2f8912;
+    background-color: #DC114B;
+    border-color: #DC144B;
 }
 
 .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
-    background-color: #2c8011;
-    border-color: #2f8912;
+    background-color: #DC114B;
+    border-color: #DC144B;
 }
